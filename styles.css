@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header */
+.header {
+    background-color: #000;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #ff9900;
+}
+
+/* Logo */
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.pom {
+    color: white;
+}
+
+.hub {
+    color: #ff9900;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, #ff9900, #ff3300);
+    color: #000;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Video & Download Section */
+.video-section, .download-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.download-button {
+    background-color: #ff9900;
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #ffcc66;
+}
+
+/* Subscription Plans */
+.subscription-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.free-version, .paid-version {
+    width: 300px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+}
+
+.free-version {
+    border: 2px solid #ff9900;
+}
+
+.paid-version {
+    border: 2px solid #00ff66;
+}
+
+.verified {
+    color: #00ff66;
+}
+
+.limit-info {
+    font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    border-top: 3px solid #ff9900;
+}
+
+/* Animation */
+.fadeIn {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
