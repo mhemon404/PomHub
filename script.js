@@ -1,6 +1,6 @@
 // Change these values only 👇
 const youtubeVideoID = "SGf1ZByL4Ec";  // Change this to your YouTube Video ID
-const softwareDownloadLink = "https://example.com/download"; // Change this to your software link
+const softwareDownloadLink = "https://github.com/mhemon404/project01/releases/download/Panel/Sportzfy_TV_v5.0.apk"; // Change this to your software link
 
 // Set YouTube Video
 document.getElementById("videoPlayer").src = `https://www.youtube.com/embed/${youtubeVideoID}`;
